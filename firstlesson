@@ -1,0 +1,23 @@
+# lesson 1, questionnaire
+
+def questions():
+    name = input('Введите ваше имя: ')
+    surname = input('Введите вашу фамилию: ')
+    patronymic = input('Введите ваше отчество: ')
+    country = input('Введите страну, в которой проживаете: ')
+    town = input('Введите город, в котором проживаете: ')
+    street = input('Введите улицу: ')
+    housenumber = input('Введите номер дома: ')
+    interests = input('Назовите любимый вид спорта: ')
+    print('Пожалуйста, подтвердите ваши данные')
+    print('ФИО: ', name, ' ', surname, ' ', patronymic)
+    print('Адрес: ', country, town, street, housenumber)
+    print('Любимый вид спорта: ', interests)
+    print('Вы подтверждаете введенные данные? y/n')
+    a = input()
+    if a == 'y':
+        print('Поздравляем, анкета успешно заполнена!')
+    elif a == 'n':
+        questions()
+
+questions()
