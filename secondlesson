@@ -1,0 +1,36 @@
+    #lesson 2, classwork
+
+
+    import math
+
+    x = 5
+    y = 2
+    z = 3
+    print(x + y)
+    print(x - y)
+    print(x * y)
+    print(x / y)
+    print(x // y)
+    print(x % y)
+    print(-x)
+    print(abs(-x))
+    print(divmod(x, y))
+    print(x ** y)
+    print(pow(x, y, z))
+
+    x = 10
+    t = 1
+    z = ((9 * math.pi * t + 10 * math.cos(x)) / (math.sqrt(t) - abs(math.sin(t)))) * math.pow(math.e, x)
+    print(z)
+    
+    #lesson 2, homework
+
+import math
+
+a = 3
+b = 10
+c = 14
+
+z = (abs(math.pi * a * b * c) * math.e + math.sin(a ** b)) // 1000 * a ** (b + c) ** math.sqrt(math.sin(0.5))
+
+print(z)
